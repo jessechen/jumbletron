@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Jumbletron",
+  "version": "1.0",
+  "description": "Jumbles words, leaving the first and last letters in the right place.",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_icon": "jumbletron-16.png"
+  },
+  "permissions": ["activeTab"],
+  "icons": {
+    "16": "jumbletron-16.png",
+    "64": "jumbletron-64.png"
+  }
+}
