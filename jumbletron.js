@@ -7,7 +7,7 @@ function jumbletron() {
         for (let word of words) {
             result.push(jumble(word));
         }
-        textElement.innerHTML = result.join(' ');
+        textElement.innerText = result.join(' ');
     }
 }
 
